@@ -16,4 +16,5 @@ jobs:
             - name: group of logs
               run:
                 echo "::group::My group title"
+                echo "Inside group"
                 echo "::endgroup::"
